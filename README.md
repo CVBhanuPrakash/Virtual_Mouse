@@ -1,6 +1,6 @@
 # Virtual_Mouse
 
-## This Python project allows mouse control using hand gestures.
+This Python project empowers users to control their computer's mouse cursor effortlessly through intuitive hand gestures. The project leverages a combination of computer vision and machine learning technologies to recognize and interpret various hand gestures, translating them into precise mouse movements and actions.
 
 ### Supported Hand Gestures and Actions
 
