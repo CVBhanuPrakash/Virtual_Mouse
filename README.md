@@ -1,28 +1,35 @@
-# Virtual Mouse with Hand Gestures
+# Virtual_Mouse
 
-## Overview
+## This Python project allows mouse control using hand gestures.
 
-This project is a virtual mouse that allows you to control your computer's mouse cursor using hand gestures captured by your webcam. It leverages the following Python libraries and modules: `cv2`, `numpy`, `time`, `autopy`, `mediapipe`, `math`, and `webbrowser`.
+### Supported Hand Gestures and Actions
 
-## Supported Hand Gestures
+- **Scroll Up**
+  - *Gesture*: Raise your forefinger and little finger simultaneously.
+  - *Action*: Scrolls the content up.
 
-### Scroll Up
-- If the forefinger and little finger are both raised, the virtual mouse will scroll up.
+- **Scroll Down**
+  - *Gesture*: Raise your forefinger, little finger, and thumb together.
+  - *Action*: Scrolls the content down.
 
-### Scroll Down
-- When the forefinger, little finger, and thumb are all raised simultaneously, the virtual mouse will scroll down.
+- **Volume Down**
+  - *Gesture*: Lower the thumb and raise the index finger while keeping other fingers down.
+  - *Action*: Decreases the volume on your computer.
 
-### Volume Down
-- Raising the thumb and index finger while keeping other fingers down will lower the volume on your computer.
+- **Volume Up**
+  - *Gesture*: Raise all fingers except the thumb.
+  - *Action*: Increases the volume on your computer.
 
-### Volume Up
-- Lowering the thumb while keeping all other fingers raised will increase the volume.
+- **Open Website**
+  - *Gesture*: Raise your forefinger, middle finger, and ring finger (three fingers).
+  - *Action*: Opens a predefined website.
 
-### Open Website
-- Raising the forefinger, middle finger, and ring finger (three fingers) will trigger the virtual mouse to open a predefined website.
+- **Click**
+  - *Gesture*: Raise your forefinger and middle finger together.
+  - *Action*: Simulates a mouse click action.
 
-### Click
-- If the forefinger and middle finger are both raised, the virtual mouse will simulate a mouse click action.
+These intuitive hand gestures allow you to effortlessly control various functions of the virtual mouse, enhancing your computer interaction experience.
+
 
 ## How to Use
 
@@ -46,10 +53,4 @@ This project relies on the following Python libraries and modules:
 - `math` for mathematical calculations.
 - `webbrowser` for opening websites in the default web browser.
 
-## Usage
-
-Feel free to explore the code provided in this repository to understand how the virtual mouse is implemented. You can also customize the gestures and actions according to your preferences.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE). You are welcome to use, modify, and distribute it as you see fit.
+#You can run this project using only python 3.8.0
