@@ -2,6 +2,11 @@
 
 This Python project empowers users to control their computer's mouse cursor effortlessly through intuitive hand gestures. The project leverages a combination of computer vision and machine learning technologies to recognize and interpret various hand gestures, translating them into precise mouse movements and actions.
 
+## Demo Video
+
+Check out the project [here](https://drive.google.com/file/d/1fAz2VqAMV-7B1nrXeXkXWX7Y1ub7Zb1e/view?usp=sharing).
+
+
 ### Supported Hand Gestures and Actions
 
 - **Scroll Up**
@@ -30,7 +35,6 @@ This Python project empowers users to control their computer's mouse cursor effo
 
 These intuitive hand gestures allow you to effortlessly control various functions of the virtual mouse, enhancing your computer interaction experience.
 
-
 ## How to Use
 
 1. Ensure that your computer has a webcam.
@@ -53,4 +57,3 @@ This project relies on the following Python libraries and modules:
 - `math` for mathematical calculations.
 - `webbrowser` for opening websites in the default web browser.
 
-#You can run this project using only python 3.8.0
